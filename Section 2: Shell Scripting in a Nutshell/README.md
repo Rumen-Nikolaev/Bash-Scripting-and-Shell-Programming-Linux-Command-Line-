@@ -13,3 +13,6 @@ Contain a series of commands.
 An interpreter executes commands in the script.
 Anything you can type at the command line, you can put in a script.
 Great for automating tasks.
+
+Shebang or Not to Shebang
+If a script does not contain a shebang the commands are executed using your shell
