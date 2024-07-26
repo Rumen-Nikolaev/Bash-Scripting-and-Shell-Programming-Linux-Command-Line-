@@ -9,3 +9,19 @@ Syntax:
 Variables are case sensitive
 
 By convention variables are uppercase.
+
+Valid:
+
+FIRST3LETTERS="ABC"
+
+FIRST_THREE_LETTERS="ABC"
+
+firstThreeLetters="ABC"
+
+Invalid:
+
+3LETTERS="ABC"
+
+first-three-letters="ABC"
+
+first@Three@Letters="ABC"
