@@ -28,3 +28,42 @@ function hello() {
 hello Jason
 #Output is:
 #Hello Jason
+
+#!/bin/bash
+function hello() {
+    for NAME IN $@
+    do
+        echo "Hello $NAME"
+    done
+}
+hello Jason Dan Ryan
+
+#Variable Scope
+#By default, variables are global
+#Variables have to be defined before used.
+
+GLOBAL_VAR=1
+#GLOBAL_VAR is available
+#in the function.
+my_function
+
+#GLOBAL_VAR is NOT available
+#in the function.
+my_function
+GLOBAL_VAR=1
+
+#!/bin/bash
+my_function() {
+    GLOBAL_VAR=1
+}
+# GLOBAL_VAR not available yet.
+echo $GLOBAL_VAR
+my_function
+#GLOBAL_VAR is NOW available
+echo $GLOBAL_VAR
+
+#Can onluy be accesed within the function.
+#Create using the local keyword.
+# local LOCAL_VAR=1
+#Only function can have local variables.
+#Best practice to keep variables local in functions.
