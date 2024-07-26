@@ -17,7 +17,66 @@ Wildcards
 3. Wildcards can be used with most commands.
 
 .ls
+
 .rm
+
 .cp
 
-Mo
+. * - matches zero or more characters.
+
+*.txt
+
+a*
+
+a*.txt
+
+? - matches exactly one character.
+
+?.txt
+
+a?
+
+a?.txt
+
+More Wildcards - Character Classes
+
+[] - A character class.
+
+* Matches any of the characters included between the brackets. Matches exactly one character.
+
+* [aeiou]
+* ca[nt]*
+
+1. can
+
+2. cat
+
+3. candy
+
+4. catch
+
+[!] - Matches any of the characters NOT included between the brackets. Matches exactly one character.
+
+* [!aeiou]
+  - baseball
+  - cricket
+
+More Wildcards - Ranges
+
+Use two characters separated by a hyphen to create a range in a character class.
+
+[a-g]
+
+* Matches all files that start with a, b, c, d, e, f, g
+
+[3-6]*
+
+* Matches all files that start with 3, 4, 5, or 6.
+
+  Mathing Wildcard patterns
+
+  . \ - escape character. Use if you want to match a wildcard character.
+
+  * Match all files that end with a question mark:
+  * *\?
+     * done?
