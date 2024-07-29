@@ -19,3 +19,9 @@ Other than 0 = error condition
 Use for error checking
 
 Use man or info to find meaning of exit status
+
+$? contains the return code of the previously executed command
+
+ls /not/here
+
+echo "$?"
