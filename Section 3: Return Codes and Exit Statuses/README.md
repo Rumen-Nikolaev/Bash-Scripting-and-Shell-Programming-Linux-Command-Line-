@@ -1,27 +1,33 @@
-Exit Status
+# Exit Status
 
-What You Will Learn
+## What You Will Learn
 
-How to check the exit status of a command.
+- How to check the exit status of a command.
 
-How to make decisions based on the status.
+- How to make decisions based on the status.
 
-How to use exit statuses in your own scripts.
+- How to use exit statuses in your own scripts.
 
-Every command returns and exit staus
+## Exit Status / Return Code
 
-Range from 0 to 255
+- Every command returns and exit staus
 
-0 = success
+- Range from 0 to 255
 
-Other than 0 = error condition
+- 0 = success
 
-Use for error checking
+- Other than 0 = error condition
 
-Use man or info to find meaning of exit status
+- Use for error checking
 
-$? contains the return code of the previously executed command
+- Use man or info to find meaning of exit status
 
-ls /not/here
+## Checking the Exit Status
 
-echo "$?"
+- $? contains the return code of the previously executed command
+
+  ```sh
+  ls /not/here
+
+  echo "$?"
+  ```
