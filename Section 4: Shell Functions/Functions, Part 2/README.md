@@ -1,19 +1,24 @@
-EXIT STATUS (Return Codes)
+# Exit Status (Return Codes)
 
-Functions have an exit status
+- Functions have an exit status
 
-Explicity
-return <RETURN_CODE>
-Implicity
+- Explicity
 
-The exit status of the last command executed in the function
+  ```sh
+  return <RETURN_CODE>
+  Implicity
+  ```
+  
+- The exit status of the last command executed in the function
 
-Valid exit codes range from 0 to 255
+- Valid exit codes range from 0 to 255
 
-0 = success
+- 0 = success
 
-$? = the exit status
+- $? = the exit status
 
-my_function
+  ```sh
+  my_function
 
-echo $?
+  echo $?
+  ```
