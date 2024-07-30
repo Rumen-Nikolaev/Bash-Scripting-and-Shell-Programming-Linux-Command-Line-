@@ -15,9 +15,9 @@
 - By convention variables are uppercase.
 
 - Valid:
-
+```sh
 FIRST3LETTERS="ABC"
-
+```
 FIRST_THREE_LETTERS="ABC"
 
 firstThreeLetters="ABC"
