@@ -1,6 +1,6 @@
-Introduction to Shell Scripting
+# Introduction to Shell Scripting
 
-What scripts are.
+## What scripts are.
 
 The components that make up a script.
 
