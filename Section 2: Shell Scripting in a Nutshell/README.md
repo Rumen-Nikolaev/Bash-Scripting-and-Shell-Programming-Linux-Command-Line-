@@ -2,17 +2,13 @@
 
 ## What scripts are.
 
-The components that make up a script.
+- **The components that make up a script.
+- **How to use variables in your scripts.
+- **How to perform tests and make decisions.
+- **How to accept command line argumets.
+- **How to accept input from a user.
 
-How to use variables in your scripts.
-
-How to perform tests and make decisions.
-
-How to accept command line argumets.
-
-How to accept input from a user.
-
-Scripts
+# Scripts
 
 Contain a series of commands.
 
