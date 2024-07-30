@@ -1,4 +1,4 @@
-Exercise 1:
+## Exercise 1:
 
 Write a shell script that displays one random number to the screen and also generates a syslog message with that random number. 
 
@@ -6,7 +6,7 @@ Use the "user" facility and the "info" facility for your messages.
 
 Hint: Use $RANDOM
 
-Exercise 2:
+## Exercise 2:
 
 Modify the previous script so that it uses a logging function. 
 
