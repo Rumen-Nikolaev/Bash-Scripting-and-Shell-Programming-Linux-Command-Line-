@@ -10,19 +10,19 @@
 
 - How to use wildcards with various commands
 
-Wildcards
+## Wildcards
 
-1. A character or string used for pattern matching.
+- A character or string used for pattern matching.
 
-2. Globbing expands the wildcard pattern into a list of files and/or directories.
+- Globbing expands the wildcard pattern into a list of files and/or directories.
 
-3. Wildcards can be used with most commands.
+- Wildcards can be used with most commands.
 
-.ls
+- .ls
 
-.rm
+- .rm
 
-.cp
+- .cp
 
 . * - matches zero or more characters.
 
