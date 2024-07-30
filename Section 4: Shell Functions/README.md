@@ -1,25 +1,25 @@
-What You Will Learn
+# What You Will Learn
 
-Why to use functions?
+- Why to use functions?
 
-How to create them.
+- How to create them.
 
-How to use them.
+- How to use them.
 
-Variable scope.
+- Variable scope.
 
-Function Parameters.
+- Function Parameters.
 
-Exit statuses and return codes.
+- Exit statuses and return codes.
 
-Why use functions?
+## Why use functions?
 
-Don't repeat yourself!
+- Don't repeat yourself!
 
-Write once, use many times.
+- Write once, use many times.
 
-Reduces script length.
+- Reduces script length.
 
-Single place to edit and troubleshoot
+- Single place to edit and troubleshoot
 
-Easier to mantain.
+- Easier to mantain.
