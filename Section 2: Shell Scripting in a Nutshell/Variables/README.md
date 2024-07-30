@@ -25,12 +25,15 @@
    firstThreeLetters="ABC"
    ```
 - Invalid:
-
-3LETTERS="ABC"
-
-first-three-letters="ABC"
-
-first@Three@Letters="ABC"
+   ```sh
+   3LETTERS="ABC"
+   ```
+   ```sh
+   first-three-letters="ABC"
+   ```
+   ```sh
+   first@Three@Letters="ABC"
+   ```
 
 -d FILE True if file is a directory.
 
