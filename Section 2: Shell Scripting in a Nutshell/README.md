@@ -8,15 +8,15 @@
 - How to accept command line argumets.
 - How to accept input from a user.
 
-# Scripts
+## Scripts
 
-Contain a series of commands.
+- Contain a series of commands.
 
-An interpreter executes commands in the script.
+- An interpreter executes commands in the script.
 
-Anything you can type at the command line, you can put in a script.
+- Anything you can type at the command line, you can put in a script.
 
-Great for automating tasks.
+- Great for automating tasks.
 
 Shebang or Not to Shebang
 
