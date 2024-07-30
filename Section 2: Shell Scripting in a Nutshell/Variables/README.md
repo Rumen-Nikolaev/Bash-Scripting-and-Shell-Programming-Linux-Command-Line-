@@ -6,9 +6,9 @@
 
 - Syntax:
 - 
-```sh
+    ```sh
     VARIABLE_NAME = "Value"
- ```
+    ```
     
 - Variables are case sensitive
 
