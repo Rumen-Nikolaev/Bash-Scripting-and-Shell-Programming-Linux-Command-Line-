@@ -1,13 +1,15 @@
-What You Will Learn
+# While Loops
 
-While loops
+## What You Will Learn
 
-Infinite loops
+- While loops
 
-Loop control
- * Explicit number of times
- * User input
- * Command exit status
+- Infinite loops
 
-Reading files, line-by-line
-break and continue
+- Loop control
+-   Explicit number of times
+-   User input
+-   Command exit status
+
+- Reading files, line-by-line
+- break and continue
