@@ -1,7 +1,8 @@
-Checking the Exit Status
+# Checking the Exit Status
 
-$? contains the return code of the previously executed command
+- $? contains the return code of the previously executed command
 
+```sh
 ls /not/here
 echo "$?"
 HOST="google.com"
@@ -12,3 +13,4 @@ then
 else
    echo "$HOST unreachable."
 fi
+```
