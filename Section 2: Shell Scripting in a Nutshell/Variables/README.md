@@ -1,4 +1,4 @@
-## Variables
+# Variables
 
 - Storage locations that have a name.
 
@@ -53,7 +53,7 @@
 
 - -n STRING True if string is not empty
 
-# String operators (tests)
+## String operators (tests)
 - STRING1 = STRING2
      True if the strings are equeal
 - STRING1 != STRING2
