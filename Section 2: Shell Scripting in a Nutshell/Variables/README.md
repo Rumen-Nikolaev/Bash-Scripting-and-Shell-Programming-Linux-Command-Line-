@@ -1,16 +1,18 @@
-Storage locations that have a name.
+## Variables
 
-Name-value pairs
+- Storage locations that have a name.
 
-Syntax:
+- Name-value pairs
+
+- Syntax:
 
     VARIABLE_NAME = "Value"
     
-Variables are case sensitive
+- Variables are case sensitive
 
-By convention variables are uppercase.
+- By convention variables are uppercase.
 
-Valid:
+- Valid:
 
 FIRST3LETTERS="ABC"
 
@@ -18,7 +20,7 @@ FIRST_THREE_LETTERS="ABC"
 
 firstThreeLetters="ABC"
 
-Invalid:
+- Invalid:
 
 3LETTERS="ABC"
 
