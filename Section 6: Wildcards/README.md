@@ -1,12 +1,14 @@
-What You Will Learn
+# Wildcards
 
-1. What wildcards are.
+## What You Will Learn
 
-2. When and where they can be used
+- What wildcards are.
 
-3. The different types of wildcards
+- When and where they can be used
 
-4. How to use wildcards with various commands
+- The different types of wildcards
+
+- How to use wildcards with various commands
 
 Wildcards
 
