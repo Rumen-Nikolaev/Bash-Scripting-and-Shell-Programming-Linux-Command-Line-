@@ -5,7 +5,7 @@
 - Name-value pairs
 
 - Syntax:
-- 
+
     ```sh
     VARIABLE_NAME = "Value"
     ```
