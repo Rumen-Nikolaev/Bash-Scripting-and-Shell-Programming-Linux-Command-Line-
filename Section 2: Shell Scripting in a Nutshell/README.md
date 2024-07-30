@@ -18,6 +18,3 @@
 
 - Great for automating tasks.
 
-Shebang or Not to Shebang
-
-If a script does not contain a shebang the commands are executed using your shell
