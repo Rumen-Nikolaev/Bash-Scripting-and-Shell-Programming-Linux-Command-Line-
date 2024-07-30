@@ -1,14 +1,15 @@
-Case Statements
+# Case Statements
 
-Alternative to if statements
+- Alternative to if statements
 
-- if["$VAR" = "one"]
-- elif["$VAR" = "two"]
-- elif["$VAR" = "three"]
-- elif["$VAR" = "four"]
+-   if["$VAR" = "one"]
+-   elif["$VAR" = "two"]
+-   elif["$VAR" = "three"]
+-   elif["$VAR" = "four"]
 
-May be easier to read than complex if statements.
+- May be easier to read than complex if statements.
 
+```sh
 case "$VAR" in
     pattern_1)
         # Commands go here.
@@ -17,4 +18,4 @@ case "$VAR" in
         # Commands go here.
         ;;
 esac
-
+```
