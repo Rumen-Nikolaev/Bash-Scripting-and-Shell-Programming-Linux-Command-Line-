@@ -1,31 +1,36 @@
-What You Will Learn
+# Logging
 
-Why Log.
+## What You Will Learn
 
-Syslog standard
+- Why Log.
 
-Generating log messages
+- Syslog standard
 
-Custom logging functions
+- Generating log messages
 
-Logging
+- Custom logging functions
 
-Logs are the who, what, when, where and why
+## Logging
 
-Output may scroll off the screen
+- Logs are the who, what, when, where and why
 
-Script may run unnattended (via cron, etc.)
+- Output may scroll off the screen
 
-Syslog
+- Script may run unnattended (via cron, etc.)
 
-The syslog standard uses facilities and severities to categorize messages.
+## Syslog
 
-* Facilities: kern, user, mail, daemon, auth, local0, local7
+- The syslog standard uses facilities and severities to categorize messages.
 
-* Severities: emerg, alert, crit, err, warning, notice, info, debug
+-   Facilities: kern, user, mail, daemon, auth, local0, local7
 
-Log file locations are configurable:
+-   Severities: emerg, alert, crit, err, warning, notice, info, debug
 
-* /var/log/messages
+- Log file locations are configurable:
 
-* /var/log/syslog
+   ```sh
+   * /var/log/messages
+   ```
+   ```sh
+  * /var/log/syslog
+   ```
