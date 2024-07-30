@@ -15,13 +15,15 @@
 - By convention variables are uppercase.
 
 - Valid:
-```sh
-FIRST3LETTERS="ABC"
-```
-FIRST_THREE_LETTERS="ABC"
-
-firstThreeLetters="ABC"
-
+   ```sh
+   FIRST3LETTERS="ABC"
+   ```
+   ```sh  
+   FIRST_THREE_LETTERS="ABC"
+   ```
+   ```sh
+   firstThreeLetters="ABC"
+   ```
 - Invalid:
 
 3LETTERS="ABC"
